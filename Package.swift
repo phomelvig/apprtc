@@ -9,6 +9,7 @@ let package = Package(
           .tvOS(.v9),
           .macOS(.v10_11),
     ],
+    path: "./src",
     products: [
         .library(
             name: "AppRTC",
