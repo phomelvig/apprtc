@@ -9,7 +9,6 @@ let package = Package(
           .tvOS(.v9),
           .macOS(.v10_11),
     ],
-    path: "./src",
     products: [
         .library(
             name: "AppRTC",
@@ -21,6 +20,7 @@ let package = Package(
     targets: [
         .target(
             name: "AppRTC",
+            path: "./src",
             dependencies: []
 //            dependencies: [.product(name: "Algorithms", package: "swift-algorithms")]
         )
