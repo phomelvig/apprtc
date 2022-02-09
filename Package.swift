@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .target(
             name: "AppRTC",
-            path: "./src",
-            dependencies: []
+            dependencies: [],
+            path: "./src"
 //            dependencies: [.product(name: "Algorithms", package: "swift-algorithms")]
         )
     ],
